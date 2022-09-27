@@ -117,19 +117,18 @@ a {
     color: var(--accent-color);
 }
 
+.contact-icon {
+    fill: var(--primary-text-color);
+}
 
-.header-contacts .link .contact-icon:hover,
-.header-contacts .link .contact-icon:focus {
+.header-contacts .link:hover .contact-icon,
+.header-contacts .link:focus .contact-icon {
     fill: var(--accent-color);
 }
 
 .header-contacts .link:hover,
 .header-contacts .link:focus {
     color: var(--accent-color);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
 }
 
 .header-contacts .link {
@@ -202,25 +201,21 @@ a {
 }
 
 
-
 .features-card-link {
     width: 270px;
     height: 120px;
     background-color: var(--background-color);
-    
     border-radius: 4px;
     display: flex;
     justify-content: center;
     margin-bottom: 30px;
-
 }
-
 
 .features-card-link:hover, .features-card-link:focus {
     border: 1px solid var(--accent-color);
 }
 
-.features-icon:hover, .features-icon:focus {
+.features-card-link:hover .features-icon, .features-card-link:focus .features-icon {
     fill: var(--accent-color);
 }
 
@@ -400,7 +395,8 @@ a {
     border-color: var(--accent-color);
 }
 
-.clients-logo:hover, .clients-logo:focus {
+.clients-link:hover .clients-logo,
+.clients-link:focus .clients-logo {
     fill: var(--accent-color);
 }
 
@@ -416,7 +412,8 @@ a {
 
 /*-----------------------PORTFOLIO-------------*/
 
-.portfolio-item {
+
+.portfolio-item:hover, .portfolio-item:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
